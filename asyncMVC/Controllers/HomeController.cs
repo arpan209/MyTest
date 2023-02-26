@@ -19,7 +19,6 @@ namespace asyncMVC.Controllers
                 emp.name = "Arpan";
                 emp.salary = 180000;
             }
-         
 
             return View(emp);
         }
