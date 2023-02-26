@@ -1,0 +1,40 @@
+﻿@model asyncMVC.Models.Employee
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                ID:
+            </td>
+            <td>
+                @Html.TextBoxFor(p=>p.id)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                @Html.TextBoxFor(p => p.name)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Salary:
+            </td>
+            <td>
+                @Html.TextBoxFor(p => p.salary)
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input id="btnSave" type="submit" value="save" /></td>
+        </tr>
+    </table>
+}
