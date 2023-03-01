@@ -125,6 +125,7 @@
     <Compile Include="Areas\Womens\Controllers\HomeController.cs" />
     <Compile Include="Areas\Womens\WomensAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MyController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -178,6 +179,10 @@
     <Content Include="Views\Home\GetList.cshtml" />
     <Content Include="Views\Home\GetListAsync.cshtml" />
     <Content Include="Views\Home\Create.cshtml" />
+    <Content Include="Views\My\Index.cshtml" />
+    <Content Include="Views\Shared\_MyView.cshtml" />
+    <Content Include="Views\Shared\_MyView2.cshtml" />
+    <Content Include="Views\Shared\_Student.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
