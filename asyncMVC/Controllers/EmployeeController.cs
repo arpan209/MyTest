@@ -55,5 +55,10 @@ namespace asyncMVC.Controllers
             }
             return View(emp);
         }
+
+        public ActionResult HelperView() {
+
+            return View();
+        }
     }
 }

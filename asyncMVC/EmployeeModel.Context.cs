@@ -25,7 +25,6 @@ namespace asyncMVC
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
     }
 }

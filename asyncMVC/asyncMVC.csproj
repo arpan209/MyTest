@@ -135,9 +135,6 @@
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MyController.cs" />
-    <Compile Include="Department.cs">
-      <DependentUpon>EmployeeModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Employee.cs">
       <DependentUpon>EmployeeModel.tt</DependentUpon>
     </Compile>
@@ -233,6 +230,7 @@
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\Create.cshtml" />
     <Content Include="Views\Employee\Edit.cshtml" />
+    <Content Include="Views\Employee\HelperView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

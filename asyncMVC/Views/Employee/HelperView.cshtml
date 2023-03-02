@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "HelperView";
+}
+
+<h2>HelperView</h2>
+
+@helper showdetail(string[] items)
+{
+
+    <o>
+        @foreach (string obj in items)
+        {
+            <li>@obj </li>
+
+        }
+
+    </o>
+}
+<h2>Student Detail</h2>
+@showdetail(new string[] { "nitin", "amit", "surbah" });
+
+<h2>Cities</h2>
+@showdetail(new string[] { "Nida", "ahmedabad", "surat" });
