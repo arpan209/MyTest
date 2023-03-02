@@ -11,7 +11,7 @@ namespace asyncMVC.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index(Employee emp)
+        public ActionResult Index(EmployeeModel emp)
         {
             if (emp.id == 0) {
 
@@ -28,7 +28,7 @@ namespace asyncMVC.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Create(Employee emp)
+        public ActionResult Create(EmployeeModel emp)
         {
             try
             {

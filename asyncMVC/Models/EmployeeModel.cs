@@ -5,7 +5,7 @@ using System.Web;
 
 namespace asyncMVC.Models
 {
-    public class Employee
+    public class EmployeeModel
     {
         public int id { get; set; }
         public string name { get; set; }
