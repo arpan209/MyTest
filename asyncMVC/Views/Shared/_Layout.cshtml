@@ -11,7 +11,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
        @{ 
            var myView2Part = Html.Partial("_MyView2");
-           myView2Part = new MvcHtmlString(myView2Part.ToString() + "<h2> My View is looking now </h>");
+           myView2Part = new MvcHtmlString(myView2Part.ToString() );
        }
         @myView2Part
     </div>
@@ -19,8 +19,8 @@
         @RenderBody()
         <hr />
         @{ Html.RenderPartial("_MyView");}
-        <h2>Soemthing to seperate</h2>
-        @{ Html.RenderAction("Student", "My");}
+        @*<h2>Soemthing to seperate</h2>
+        @{ Html.RenderAction("Student", "My");}*@
     </div>
 
     @Scripts.Render("~/bundles/jquery")
